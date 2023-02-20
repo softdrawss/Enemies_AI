@@ -5,6 +5,7 @@ Hello, my name is Júlia Serra Trujillo and I am a student of the Bachelor’s D
 ## Types of AI that can be found in RPGs
 ### Image enhancement
 Used to
+![gta5](https://user-images.githubusercontent.com/99959289/220201604-ac06f9db-85f2-49ba-8a0b-4e912d007cfe.jpg)
 
 ###
 
