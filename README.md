@@ -60,11 +60,11 @@ They force the player to use only some specific mechanic to defeat them, with th
 Enforcers must force players to learn how to fight them and also give a feeling of satisfaction when doing it right.
 
 #### Challengers
-Tougher enemies which are meant to challenge the player and test their skills
+Tougher enemies which are meant to challenge the player and test their skills. 
 
 ## What to take in mind
 - OFFSCREEN: Enemies must attack on screen, almost never off screen. Take this in mind specially when developing 2D games to make enemies be aware of the camera limits or it will result in frustration for players as they will recieve damage without seeing who is attacking.
-- PATTERNS: Players will engage in the fight if they understand the patterns of the enemies, so when developing
+- PATTERNS: Players will engage in the fight if they understand the patterns of the enemies, so when developing think and playtest the patterns to seeif they are easy to understand and engalling, rather than too challenging or even boring.
 - PLAYTESTING: Test the enemies, all the attacks, reactions and movements. 
 - REGULATED ATTACKS: Enemies must not attack all together, and that should be regulated. For example, if the player is encountering a group of enemies, if they attack at the same time the player would recieve loads of damage that could hurt them of kill them and that would frustrate the player. In order to avoid this, attacks must be regulated so the player can have time to move or act between one attack and another.
 ## Links to documentation
