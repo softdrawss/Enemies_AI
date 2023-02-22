@@ -13,18 +13,22 @@ Used to
 ### Game level generation
 
 (No Man's Sky)
+![nomansky](https://user-images.githubusercontent.com/99959289/220749826-c7db6baa-da9d-42cf-ac4b-bf15f206129a.jpg)
 
 ### Scenarios and stories
 
 (Dungeon 2)
+![dungeons2](https://user-images.githubusercontent.com/99959289/220749561-35e51706-c353-444d-bfe7-1ae731fc688d.jpg)
 
 ### Balancing in-game complexity
 
 (FIFA)
+![fifa](https://user-images.githubusercontent.com/99959289/220749760-2213911e-454f-4238-8193-a192d6e44ace.jpg)
 
 ### Adding intelligence to non-playing characters (NPCs)
 
 (The Last of Us)
+![thelastofus](https://user-images.githubusercontent.com/99959289/220749937-b82770dc-a5c6-40d5-aabd-bea8a2faeb3d.jpg)
 
 Others:
 - Decision trees
@@ -67,6 +71,7 @@ Tougher enemies which are meant to challenge the player and test their skills.
 - PATTERNS: Players will engage in the fight if they understand the patterns of the enemies, so when developing think and playtest the patterns to seeif they are easy to understand and engalling, rather than too challenging or even boring.
 - PLAYTESTING: Test the enemies, all the attacks, reactions and movements. 
 - REGULATED ATTACKS: Enemies must not attack all together, and that should be regulated. For example, if the player is encountering a group of enemies, if they attack at the same time the player would recieve loads of damage that could hurt them of kill them and that would frustrate the player. In order to avoid this, attacks must be regulated so the player can have time to move or act between one attack and another.
+
 ## Links to documentation
 https://dataconomy.com/2022/04/artificial-intelligence-games/
 
