@@ -13,7 +13,7 @@ Used to
 ### Game level generation
 
 (No Man's Sky)
-![nomansky](https://user-images.githubusercontent.com/99959289/220749826-c7db6baa-da9d-42cf-ac4b-bf15f206129a.jpg)
+![nomansky](https://user-images.githubusercontent.com/99959289/220765068-aef20d8b-a0aa-4bca-98a1-96c1ae618303.jpg)
 
 ### Scenarios and stories
 
