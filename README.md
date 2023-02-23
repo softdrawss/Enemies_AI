@@ -42,7 +42,7 @@ Many gaming companies are already employing this type of AI in their games, and 
 
 
 ## 2. Enemies and Bosses AI Patterns
-The same way we use AI to give personality to NPCs and make them interact towards the player and certain situations, we can program Enemies to behave as well so players can engage in what can resemble a real fight.
+The same way we use AI to give personality to NPCs and make them interact towards the player and certain situations, we can program enemies to behave as well so players can engage in what can resemble a real fight.
 
 ### 2.1. Types of AI found in enemies
 The enemy AI controls their behaviour (moving, attacking, responding to certain acts, etc). Besides the individual enemy AI, in games where is expected to fight groups of enemies, developers create an AI for the enemy grouping.
@@ -61,30 +61,42 @@ In case the enemy has multiple attack, which the attack that is used can depend 
 
 
 ### 2.2. Enemy Behaviour
-The main objective for designers when creating enemies is engage the player to fight until a reward is given and feel like a real fight.
+The main objective for designers when creating enemies is engage the player to fight until a reward is given and feel like a real fight. To do this, they follow certain behaviours known by players that can be easily understood and that are featured in almost every game (with some differences) to help players see what is doing the enemy, and by this create and program their enemies' AI.
 
 #### 2.2.1. Trigger
-Appraching the enemy, being too close to them, attacking them without having entered into the combat... Triggers help player undertand that the fight has been iniciated and the enemy or enemies has noticed the player and they will soon attack or react to attacks.
+Appraching the enemy, being too close to them, attacking them without having entered into the combat... Triggers help player undertand that the fight has been iniciated and the enemy or enemies has noticed the player and they will soon attack or react to attacks. It also helps set the player’s expectations for the attack.
+
+Many games feature question marks to show the player is near but the enemy has not noticed yet, and exclamation points when the enemy notices.
 
 #### 2.2.2. Tells
-Signifies that the enemy is about to attack the player. This is a key feature for the readability of the combat system, as the tell allows players to recognize that they must dodge, prepare to defend or attack before the enemy attacks, and how the player responds depends on the game and which attack the enemy is using.
+Signifies that the enemy is about to attack the player. This is a key feature for the readability of the combat system, as the tell allows players to recognize that they can either try to avoid the attack, block it, or counter it in some way, and how the player responds will depends on the game and which attack the enemy is using.
 
-; in general, the player can either try to avoid the attack, block the attack, or counter attack in some way.
+Tells have to be clear and distinctive, especially if enemies have more than one attack. Stronger attacks from enemies usually also have more obvious tells, making it easier for the player to respond. The harder it is for players to read these tells, the more difficult the combat becomes. Given a strong warning of an impending attack means that the combat feels more fair. In essence, ‘fairness’ is the key reason for the existence of tells in combat design.
 
-Tells have to be clear and distinctive, especially if enemies have more than one attack. Stronger attacks from enemies usually also have more obvious tells, thus making it easier for the player to respond. The harder it is for players to read these tells, the more difficult the combat becomes, but the feeling that the player is being given a strong warning of an impending attack means that the combat feels more fair. In essence, ‘fairness’ is the key reason for the existence of tells in combat design.
-
-In general the tell is the start of the enemy’s attack animation, which is also used to set the player’s expectations for the attack. Often extra effects, possibly colour coded, are added to this to make it more obvious to the player. Some games also include sound effects, for example DmC, but this is not common, especially for standard-strength attacks when compared to the less-common powerful attacks.
+Sometimes the tell is the start of the enemy’s attack animation, which can be the same animation used when we trigger the enemy. Often developers add extra effects, or  colour coded it to make the tells more obvious to the player. Some games also include sound effects.
 
 #### 2.2.3. Idle
+When enemies are not attacking, they often move around the player, playing some animation to cheer on the other enemies, or taunting the player. This animation is what we call the idle. This is very important to make it appear as if they are still participating in the fight instead of simply waiting for their turn to attack the player, or they would look static or even glitchy. 
 
+Enemies also try to move around to be on screen (in view of the camera), or switch to the near group before attacking the player.
 
-#### 2.2.4. Dodge
+#### 2.2.4. Defence
+In some games, enemies also have the ability to respond to the player’s attacks with a block, dodge, or counter attack. Blocking and dodging can help teach the player which attacks do work and those that do not against specifics enemies without punishing the player for using that attack while explaining the player what has happened. In games where elements are important, usually players can read on the screen phrases such as "No effect", "It's not very effective..." and so on.
 
+Enemies counter-attacking is a more clear, yet unforgiving, way to teach players the same thing. This also strongly increases the difficulty of the game and but is rarely seen or is only presented on higher difficulty settings.
 
 #### 2.2.5. Healthbar 
 To help understand the player if they have damaged the enemy, we use another animation to show wheter if the enemy has only been damaged or if they have died. However, to understand how much health the enemy has remaning, developers add a healthbar to enemies once the enemy has been damaged for the first time. This helps players to plan their attacks, see how much damage they do or see if they should escape the fight as their health bar is much lower than the enemy's.
 
-However, not all developers use this feature.
+However, not all developers use this feature. Not seeing how much health points the enemy is remaining can create a sense of emergency to kill your enemies before they kill you, and that can be challenging for some users as they are not able to see if killing the enemy is going to take a long time or not. 
+
+In any case, it is good to use a healthbar when we are fighting Bosses who are very challenging and have a big amount of health point in comparison to other enemies who have less strenght, as the absence of it could stress the players and feel that the fight is pointless or not as important as it should be.
+
+#### 2.2.6. Chasing 
+Enemies usually try to follow the player when the player tries to leave the fight or when they are in range and have been noticed so the combat can start, or to attack. This keeps players engaged with the fight and strongly encourages them to defeat the enemies. In linear games, enemies follow the player until they reach an obstacle they cannot overcome. In open world games, however, enemies often follow a certain distance from their set patrol area or until the player gets far enough away from them.
+
+To create this effect of chasing, we use algorithms such as A* so the AI can pathfind the player if it is in range or has been noticed, depending on how developers have stablished the enemy's AI and the gameplay.
+
 
 ### 2.3. Types of Enemies
 When we try to split enemies into different categories, we tend to think of strenght. Different levels of strenght allows to give the player various levels of challenge and enables them to see how much they progressed when they are putted against the fodder enemies later in the game. Usually in games, the groups are kept evenly spread, with higher groups being smaller because they required more work to create.
@@ -109,21 +121,36 @@ Tougher enemies which are meant to challenge the player and test their skills.
 
 
 ## 3. What to take in mind
-- OFFSCREEN: Enemies must attack on screen, almost never off screen. Take this in mind specially when developing 2D games to make enemies be aware of the camera limits or it will result in frustration for players as they will recieve damage without seeing who is attacking.
-- PATTERNS: Players will engage in the fight if they understand the patterns of the enemies, so when developing think and playtest the patterns to seeif they are easy to understand and engalling, rather than too challenging or even boring.
-- PLAYTESTING: Test the enemies, all the attacks, reactions and movements. 
-- REGULATED ATTACKS: Enemies must not attack all together, and that should be regulated. For example, if the player is encountering a group of enemies, if they attack at the same time the player would recieve loads of damage that could hurt them of kill them and that would frustrate the player. In order to avoid this, attacks must be regulated so the player can have time to move or act between one attack and another.
+- **OFFSCREEN**: Enemies must attack on screen, almost never off screen. Take this in mind specially when developing 2D games to make enemies be aware of the camera limits or it will result in frustration for players as they will recieve damage without seeing who is attacking.
+- **PATTERNS**: Players will engage in the fight if they understand the patterns of the enemies, so when developing think and playtest the patterns to see if they are easy to understand and engaging, rather than too challenging or even boring.
+- **PLAYTESTING**: Test the enemies, all the attacks, reactions and movements, specially if one of your game pillars is the fighting. Even if the game is great and features great things such as new mechanics, great visuals and a magnificient soundtrack, if the enemies do not work correctly players will not feel engaged and will avoid fighting as much as possible, or even stop playing the game. 
+- **REGULATED ATTACKS**: Enemies must not attack all together, and that should be regulated. For example, if the player is encountering a group of enemies, if they attack at the same time the player would recieve loads of damage that could hurt them of kill them and that would frustrate the player. In order to avoid this, attacks must be regulated so the player can have time to move or act between one attack and another.
 
 
-## 4. Links to documentation
+## 4. Resources
+Link of the website: https://softdrawss.github.io/Enemies_AI/
+
+Link of the presentation: https://docs.google.com/presentation/d/1sCu6MVlQada29AXVAuJk4qQ_W8qx_aQjP3KUFh4FCm4/edit?usp=sharing
+
+Chart to create enemies: 
+
+## 5. Links to documentation
 https://dataconomy.com/2022/04/artificial-intelligence-games/
 
 https://www.gamedeveloper.com/design/level-design-for-melee-combat-systems
 
 https://www.youtube.com/watch?v=KC-SVc84GfE&t=2946s&ab_channel=ToadintheHole
 
+https://www.gamedeveloper.com/design/level-design-for-melee-combat-systems
 
-## 5. Games researched (in order)
+https://www.youtube.com/watch?v=KOj87_Bte7g&t=1768s&ab_channel=LazyBlue
+
+https://genshin-impact.fandom.com/wiki/Ruin_Guard
+
+https://www.ign.com/wikis/genshin-impact/Tartaglia_(Childe)_Boss_Fight
+
+
+## 6. Games researched (in alphabetical order)
 - Chrono Trigger (1995)
 - Cult of the Lamb (2022)
 - Deltarune (2018)
@@ -138,3 +165,5 @@ https://www.youtube.com/watch?v=KC-SVc84GfE&t=2946s&ab_channel=ToadintheHole
 - Rain World (2017)
 - Super Mario Land (1989)
 - Super Mario Odyssey (2017)
+- The Binding of Isaac (2011)
+- The Legend of Zelda: Breath of the Wild (2017)
