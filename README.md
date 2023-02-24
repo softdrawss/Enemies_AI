@@ -148,7 +148,6 @@ Other things to take in mind:
 - **OFFSCREEN**: Enemies must attack on screen, almost never off screen. Take this in mind specially when developing 2D games to make enemies be aware of the camera limits or it will result in frustration for players as they will recieve damage without seeing who is attacking.
 - **PATTERNS**: Players will engage in the fight if they understand the patterns of the enemies, so when developing think and playtest the patterns to see if they are easy to understand and engaging, rather than too challenging or even boring.
 - **PLAYTESTING**: Test the enemies, all the attacks, reactions and movements, specially if one of your game pillars is the fighting. Even if the game is great and features great things such as new mechanics, great visuals and a magnificient soundtrack, if the enemies do not work correctly players will not feel engaged and will avoid fighting as much as possible, or even stop playing the game. 
-- **REGULATED ATTACKS**: Enemies must not attack all together, and that should be regulated. For example, if the player is encountering a group of enemies, if they attack at the same time the player would recieve loads of damage that could hurt them of kill them and that would frustrate the player. In order to avoid this, attacks must be regulated so the player can have time to move or act between one attack and another.
 
 
 ## 4. Resources
