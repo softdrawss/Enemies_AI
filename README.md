@@ -104,10 +104,10 @@ Enforcers must force players to learn how to fight them and also give a feeling 
 Tougher enemies which are meant to challenge the player and test their skills. 
 
 
-### 2.3. Types of AI found in enemies
+### 2.3. Types of Enemy AI
 The enemy AI controls their behaviour (moving, attacking, responding to certain acts, etc). Besides the individual enemy AI, in games where is expected to fight groups of enemies, developers create an AI for the enemy grouping.
 
-#### 2.3.1. Enemies Attacking AI
+#### 2.3.1. Attacking AI
 Enemies have at least one attack and often a way to defend themselves, although this varies between games. They can have a number of attacks from a range of only one  to  enemies have multiple attacks with differing variables such as damage dealt. 
 
 Depending it it fits the design of the enemy and the gameplay, developers can choose to add different features in the behaviour of enemies when they attack, such as the duration of the anticipation, hit frames, cooldown, optional added affects when the player is hit, whether if the enemy can interrupt the player's attacks and how the player can defend against it. 
@@ -116,7 +116,7 @@ In some games, enemies may attack with a combo, a sequence of rapid attacks, whi
 
 In case the enemy has multiple attack, which the attack that is used can depend on a variety of factors. In most games where this happens this variety is regulated by a context driven decision tree to choose which attack to use, with some randomness included to use stronger attacks more sparingly.
 
-#### 2.3.2. Enemies Grouping AI
+#### 2.3.2. Grouping AI
 In several games enemies were split into two groups around the player; one near group and one far group.
 
 - The near group are enemies which are close to the player and form an immediate threat, and it only consists of a few enemies. 
