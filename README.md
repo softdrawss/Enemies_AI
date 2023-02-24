@@ -44,8 +44,8 @@ Many gaming companies are already employing this type of AI in their games, and 
 ## 2. Enemies and Bosses AI Patterns
 The same way we use AI to give personality to NPCs and make them interact towards the player and certain situations, we can program enemies to behave as well so players can engage in what can resemble a real fight.
 
-### 2.1. Enemy Behaviour
-The main objective for designers when creating enemies is engage the player to fight and feel like (or resemble) a real fight. To do this, they follow certain behaviours known by players that can be easily understood and that are featured in almost every game (with some differences) to help players see what is doing the enemy, and by this create and program their enemies' AI.
+### 2.1. Enemy Behavior
+The main objective for designers when creating enemies is engage the player to fight and feel like (or resemble) a real fight. To do this, they follow certain behaviors known by players that can be easily understood and that are featured in almost every game (with some differences) to help players see what is doing the enemy, and by this create and program their enemies' AI.
 
 #### 2.1.1. Trigger
 Appraching the enemy, being too close to them, attacking them without having entered into the combat... Triggers help player undertand that the fight has been iniciated and the enemy or enemies has noticed the player and they will soon attack or react to attacks. It also helps set the player’s expectations for the attack.
