@@ -1,3 +1,5 @@
+![title](https://user-images.githubusercontent.com/99959289/221149863-91478499-0860-4129-af07-cbab5e702722.png)
+
 Hello, my name is Júlia Serra Trujillo and I am a student of the Bachelor’s Degree in Video Games at Centre de la Imatge i la Tecnologia Multimèdia (CITM), at Universitat Politècnica de Catalunya (UPC). 
 
 This page contents information about RPG Enemies AI, their patterns and information about different enemies in games, and has been created for the subject Project II.
