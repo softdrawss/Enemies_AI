@@ -84,12 +84,11 @@ Enemies usually try to follow the player when the player tries to leave the figh
 To create this effect of chasing, we use algorithms such as A* so the AI can pathfind the player if it is in range or has been noticed, depending on how developers have stablished the enemy's AI and the gameplay.
 
 ##### Examples
-![example1](https://user-images.githubusercontent.com/99959289/221803863-cd776e57-5bb2-466c-b6aa-8ee98d218f6b.jpg)
-Cult of the Lamb Gameplay
+<a href="https://www.youtube.com/watch?v=KOj87_Bte7g&t=1768s" target="_blank"><img src="https://user-images.githubusercontent.com/99959289/221803863-cd776e57-5bb2-466c-b6aa-8ee98d218f6b.jpg" 
+alt="Cult of the Lamb Gameplay" width="1280" height="520" border="10" /></a>
 
-![example2](https://user-images.githubusercontent.com/99959289/221803993-f402215b-72d1-4ad6-be15-8a5117550521.jpg)
-Deltarune Gameplay
-
+<a href="https://www.youtube.com/watch?v=KOj87_Bte7g&t=1768s" target="_blank"><img src="https://user-images.githubusercontent.com/99959289/221803993-f402215b-72d1-4ad6-be15-8a5117550521.jpg" 
+alt="Deltarune Gameplay" width="1280" height="520" border="10" /></a>
 
 ### 2.2. Types of Enemies
 When we try to split enemies into different categories, we tend to think of strenght. Different levels of strenght allows to give the player various levels of challenge and enables them to see how much they progressed when they are putted against the fodder enemies later in the game. Usually in games, the groups are kept evenly spread, with higher groups being smaller because they required more work to create.
@@ -141,8 +140,9 @@ AI for bosses is different from AI for regular enemies and even mini-bosses whic
 Regular enemies will be fighting the player in arenas of various sizes and shapes, spawning on various positions. For this reason, the AI for regular enemies cannot rely on these things and has to be more general.
 
 ##### Examples
-![example3](https://www.youtube.com/watch?v=4PlGyEoRXR4)
-Level 90 Tartaglia Gameplay (Genshin Impact)
+
+<a href="https://youtu.be/4PlGyEoRXR4" target="_blank"><img src="https://user-images.githubusercontent.com/99959289/221807495-01054523-a0dd-4ceb-944d-356fb6b907b2.jpg" 
+alt="Level 90 Tartaglia Gameplay (Genshin Impact)" width="1280" height="520" border="10" /></a>
 
 ## 3. What to take in mind
 **1.** Before design your enemies, have in mind which type of game you are developing. Are talking about games that player and enemies attack in tourns? Will enemies attack in groups or each enemy will be different an attack individually? Designers must think of this before designing the opponents of the player as the behaviours will change accordingly to the game.
