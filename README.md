@@ -84,7 +84,7 @@ Enemies usually try to follow the player when the player tries to leave the figh
 To create this effect of chasing, we use algorithms such as A* so the AI can pathfind the player if it is in range or has been noticed, depending on how developers have stablished the enemy's AI and the gameplay.
 
 ##### Examples
-<a href="https://www.youtube.com/watch?v=KOj87_Bte7g&t=1768s" target="_blank"><img src="https://user-images.githubusercontent.com/99959289/221803863-cd776e57-5bb2-466c-b6aa-8ee98d218f6b.jpg" 
+<a href="https://youtu.be/KC-SVc84GfE" target="_blank"><img src="https://user-images.githubusercontent.com/99959289/221803863-cd776e57-5bb2-466c-b6aa-8ee98d218f6b.jpg" 
 alt="Cult of the Lamb Gameplay" width="1280" height="520" border="10" /></a>
 
 <a href="https://www.youtube.com/watch?v=KOj87_Bte7g&t=1768s" target="_blank"><img src="https://user-images.githubusercontent.com/99959289/221803993-f402215b-72d1-4ad6-be15-8a5117550521.jpg" 
